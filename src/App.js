@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import TodoBoard from './components/TodoBoard';
 
 
@@ -10,6 +11,7 @@ import TodoBoard from './components/TodoBoard';
 
 
 function App() {
+
   const [inputValue,setInputValue] =useState('')
   const [todoList,setTodoList] =useState([])
   const addItem=()=> {

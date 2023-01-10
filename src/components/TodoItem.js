@@ -1,11 +1,19 @@
 import React from 'react'
+import { Button } from 'react-bootstrap';
 
 function TodoItem(props) {
 
     return (
-        <div className="todo-item">
-            {props.item}
+        <div>
+            <Button variant="warning">나와라1</Button>{' '}
+            <Button variant="warning"></Button>{' '}
+            <Button variant="warning"></Button>{' '}
+
+
         </div>
+        // <div className="todo-item">
+        //     {props.item}
+        // </div>
     )
 
 }
